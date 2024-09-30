@@ -1,0 +1,14 @@
+.cartLink {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(16px, 2vw, 18px);
+  position: relative;
+  color: var(--color-link);
+  padding: 10px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: var(--color-gray);
+    color: var(--color-crimson);
+  }
+}

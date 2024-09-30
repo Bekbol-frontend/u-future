@@ -1,0 +1,25 @@
+$font-roboto: "Roboto", sans-serif;
+$font-ubuntu: "Ubuntu", sans-serif;
+
+:root {
+  // color
+  --color-logo: rgb(47, 84, 196);
+  --color-btn: royalblue;
+  --color-btn-hover: rgb(89, 126, 238);
+  --color-bg-btn: rgb(31, 79, 222);
+  --color-white: #fff;
+  --color-black: #111;
+  --color-gray-dark: #3c3c3c;
+  --color-gray-light: #636363;
+  --color-link: #050711;
+  --border-color: #cecece;
+  --color-gray: #f6f6f6;
+  --color-crimson: rgb(227, 23, 63);
+  --color-crimson-light: rgb(236, 46, 84);
+
+  // header-height
+  --header-height: 70px;
+
+  // z-index
+  --z-index-header: 10;
+}

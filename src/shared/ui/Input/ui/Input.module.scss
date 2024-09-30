@@ -1,0 +1,19 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+  .label {
+    font-size: clamp(16px, 1.5vw, 17px);
+    cursor: pointer;
+  }
+
+  .input {
+    font-size: clamp(16px, 1.5vw, 17px);
+    display: block;
+    width: 100%;
+    padding: 8px 20px 8px 10px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+  }
+}

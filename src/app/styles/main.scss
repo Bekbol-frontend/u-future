@@ -1,0 +1,101 @@
+@import "./var";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+// Scroll
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #707070;
+}
+
+body {
+  font-family: $font-ubuntu;
+  min-width: 380px;
+  background-color: var(--color-white);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-roboto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: $font-roboto;
+}
+
+button {
+  font-family: $font-roboto;
+  display: inline-block;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  font-family: $font-roboto;
+}
+
+label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+// ========================= container =========================
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 0px 20px;
+}
+
+/* =============================== main-block-wrapper  =============================== */
+
+.main-block-wrapper {
+  padding: calc(20px + var(--header-height)) 0px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-block-wrapper {
+    padding: calc(20px + var(--header-height)) 0px;
+  }
+}
